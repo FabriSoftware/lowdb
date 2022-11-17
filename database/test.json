@@ -1,0 +1,13 @@
+{
+  "foo": {
+    "unit": "service"
+  },
+  "bat": {
+    "unit": "native"
+  },
+  "value": {
+    "unit": [
+      "native, pma"
+    ]
+  }
+}
