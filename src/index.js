@@ -1,3 +1,3 @@
 const Database = require('./lib/Database');
 
-exports.asyncDb = Database;
+module.exports = Database;

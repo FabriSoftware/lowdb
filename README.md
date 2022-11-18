@@ -22,7 +22,7 @@ require lowdb on you project
 
 ```js
 const lowdb = require('@fabrisoftware/lowdb');
-const db = new lowdb.asyncDb.Database({
+const db = new lowdb.Database({
     name: 'test', // name of json file
     directory: './database' // directory to save the database
 })
