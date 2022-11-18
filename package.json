@@ -1,6 +1,6 @@
 {
   "name": "@fabrisoftware/lowdb",
-  "version": "0.1.1",
+  "version": "0.1.2-dev",
   "description": "a minimalist database saved locally in json files",
   "main": "src/index.js",
   "types": "src/types/index.d.ts",
