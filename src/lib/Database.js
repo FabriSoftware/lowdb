@@ -1,9 +1,17 @@
 const fs = require("fs");
 const lowDbUtils = require("../utils/util");
 
-
+/**
+ * @typedef {LowDbOptions} Database
+ * @property {string} name - Name of the database
+ * @property {string} directory - Directory of the database
+ */
 class Database {
 
+    /**
+     * 
+     * @param {LowDbOptions} obj options
+     */
     constructor(obj){
         this.name = obj.name;
         this.directory = obj.directory;
@@ -19,9 +27,7 @@ class Database {
         }
     }
 
-    /**
-     * @private
-     */
+
     __getAll(){
         if(!fs.readFileSync(`${this.directory}/${this.name}.json`, "utf-8")){
             return {}

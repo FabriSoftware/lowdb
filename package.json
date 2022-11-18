@@ -3,6 +3,7 @@
   "version": "0.1.1",
   "description": "a minimalist database saved locally in json files",
   "main": "src/index.js",
+  "types": "src/types/index.d.ts",
   "scripts": {
     "lowdbtest": "node src/index.js"
   },
